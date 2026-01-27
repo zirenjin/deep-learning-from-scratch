@@ -1,0 +1,28 @@
+# 1. 虚拟环境（最重要！你刚才就是误传了这个）
+ch01/path/to/venv/
+venv/
+.venv/
+env/
+
+# 2. Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. 深度学习相关：训练好的模型权重和大型数据集
+*.h5
+*.pth
+*.pkl
+*.npy
+*.npz
+data/
+datasets/
+
+# 4. 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+# 5. 编辑器配置
+.vscode/
+.idea/
