@@ -1,32 +1,34 @@
-# Deep Learning from Scratch - 环境配置指南 (Environment Setup)
+# Deep Learning from Scratch - Environment Setup
 
-本项目基于 Python 3 和 Jupyter Notebook 进行《深度学习入门：基于 Python 的理论与实现》的学习。
-以下是在 **VS Code + Windows Subsystem for Linux (Ubuntu)** 环境下的标准配置步骤。
+This project is based on Python3 and Jupyter Notebook. It is the author's personal learning note of the book *Deep Learning from Scratch* by Koki Saitoh
+Below is the instruction to set up your environment in a **Unix-based System**
 
-## 1. 初始化虚拟环境 (Virtual Environment)
+## 1. Initialize Virtual Environment
 
-为了防止依赖冲突，建议为本项目单独创建一个虚拟环境。请在项目根目录下打开终端 (Terminal) 执行以下步骤：
+To prevent dependency conflicts, it is recommended to create a separate virtual environment. Please open your terminal in the project's root directory and follow these steps:
 
-### 第一步：创建环境
+### Step 1: Create a environment
 ```bash
 python3 -m venv venv
 ```
 
-### 第二步：激活环境
+### Step 2: Activate the environment
 ```bash
 source venv/bin/activate
 ```
 
-### 第三步：安装依赖库
+### Step 3: Install Dependencies
 
-#### 1. 升级 pip
+#### 1. Upgrade pip
 ```bash
 pip install --upgrade pip
 ```
-#### 2. 安装核心库
-##### numpy: 用于矩阵运算
-##### matplotlib: 用于绘制图表和显示图像
-##### ipykernel: 用于 VS Code 运行 Jupyter Notebook
+#### 2. Install dependencies
+##### numpy: Scientific Computing
+##### matplotlib: Creating static, animated, and interactive visualizations
+##### ipykernel: for running Jupyter Notebook on VS Code
 ```bash
-pip install numpy matplotlib ipykernel
+pip install numpy 
+pip install matplotlib 
+pip install ipykernel
 ```
