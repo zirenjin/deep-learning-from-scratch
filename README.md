@@ -18,12 +18,15 @@ source venv/bin/activate
 ```
 
 ### 第三步：安装依赖库
+
+#### 1. 升级 pip
 ```bash
-# 1. 升级 pip
 pip install --upgrade pip
-# 2. 安装核心库
-# numpy: 用于矩阵运算
-# matplotlib: 用于绘制图表和显示图像
-# ipykernel: 用于 VS Code 运行 Jupyter Notebook
+```
+#### 2. 安装核心库
+##### numpy: 用于矩阵运算
+##### matplotlib: 用于绘制图表和显示图像
+##### ipykernel: 用于 VS Code 运行 Jupyter Notebook
+```bash
 pip install numpy matplotlib ipykernel
 ```
